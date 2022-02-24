@@ -1,3 +1,14 @@
+-- Optimizations Start --
+local Wait = Wait
+local IsControlPressed = IsControlPressed
+local SendNUIMessage = SendNUIMessage
+local SetNuiFocus = SetNuiFocus
+local IsScreenFadedOut = IsScreenFadedOut
+local IsPauseMenuActive = IsPauseMenuActive
+--Optimizations End --
+
+
+
 local isRDR = not TerraingridActivate and true or false
 
 local chatInputActive = false
