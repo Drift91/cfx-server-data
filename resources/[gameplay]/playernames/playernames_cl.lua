@@ -1,26 +1,3 @@
--- Optimzations Start --
-local rename = rename
-local pairs = pairs
-local ipairs = ipairs
-local SetTimeout = SetTimeout
-local PlayerPedId = PlayerPedId
-local GetEntityCoords = GetEntityCoords
-local GetActivePlayers = GetActivePlayers
-local PlayerId = PlayerId
-local GetPlayerPed = GetPlayerPed
-local IsMpGamerTagActive = IsMpGamerTagActive
-local HasEntityClearLosToEntity = HasEntityClearLosToEntity
-local SetMpGamerTagVisibility = SetMpGamerTagVisibility
-local IsPlayerTargettingEntity = IsPlayerTargettingEntity
-local NetworkIsPlayerTalking = NetworkIsPlayerTalking
-local SetMpGamerTagAlpha = SetMpGamerTagAlpha
-local SetMpGamerTagColour = SetMpGamerTagColour
-local SetMpGamerTagWantedLevel = SetMpGamerTagWantedLevel
-local SetMpGamerTagHealthBarColour = SetMpGamerTagHealthBarColour
-local RemoveMpGamerTag = RemoveMpGamerTag
--- Optimizations End --
-
-
 local mpGamerTags = {}
 local mpGamerTagSettings = {}
 
